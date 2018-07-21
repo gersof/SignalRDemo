@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SignalIRDemo.ASubject">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>ASubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignalIRDemo.SubjectServer">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="SignalIRDemo.SubjectServer.StatusUpdate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SubjectServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAIAAAIAAAAAAAAAAIAAAAAAQAAAAAAgAAA=</HashCode>
+      <FileName>SubjectServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignalIRDemo.HubObserver">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>HubObserver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SignalIRDemo.Controllers.HomeController">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SignalIRDemo.IObserver">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
